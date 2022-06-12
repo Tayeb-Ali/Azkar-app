@@ -5,4 +5,4 @@ PATH_PROJECT=$(pwd)
 flutter build apk --release
 
 # move file app-release.aab to folder certs
-cp "$PATH_PROJECT/build/app/outputs/apk/release/app-release.apk" "$PATH_PROJECT/market deliveryboy.apk"
+cp "$PATH_PROJECT/build/app/outputs/apk/release/app-release.apk" "$PATH_PROJECT/azkar-app.apk"
